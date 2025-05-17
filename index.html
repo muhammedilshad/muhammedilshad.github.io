@@ -1,68 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-<style>
-body {font-family: "Raleway", Arial, sans-serif}
-.w3-row img {margin-bottom: -8px}
-</style>
+  <meta charset="UTF-8">
+  <title>MySocial</title>
 </head>
-<body>
+<body style="margin: 0; font-family: Arial, sans-serif; background-color: #f3f3f3; color: #333;">
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
-  <!-- Header -->
-  <header class="w3-container w3-xlarge w3-padding-24">
-    <a href="#" class="w3-left w3-button w3-white">MY ART</a>
-    <a href="#about" class="w3-right w3-button w3-white">About</a>
-  </header>
-
-  <!-- Photo Grid -->
-  <div class="w3-row">
-    <div class="w3-half">
-      <img src="/w3images/streetart.jpg" style="width:100%">
-      <img src="/w3images/streetart2.jpg" style="width:100%">
-      <img src="/w3images/streetart5.jpg" style="width:100%">
-    </div>
-
-    <div class="w3-half">
-      <img src="/w3images/streetart3.jpg" style="width:100%">
-      <img src="/w3images/streetart4.jpg" style="width:100%">
+  <!-- Navbar -->
+  <div style="background-color: #fff; padding: 15px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center;">
+    <div style="font-size: 24px; font-weight: bold;">MySocial</div>
+    <div>
+      <a href="#" style="margin-right: 15px; text-decoration: none; color: #333;">Home</a>
+      <a href="#" style="margin-right: 15px; text-decoration: none; color: #333;">Profile</a>
+      <a href="#" style="text-decoration: none; color: #333;">Login</a>
     </div>
   </div>
-  
-<!-- End Page Content -->
-</div>
 
-<!-- Footer / About Section -->
-<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
-  <h2>About</h2>
-  <img src="/w3images/boy.jpg" class="w3-image w3-padding-32" width="300" height="300">
-  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
-    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    <p class="w3-large w3-text-pink">Do not hesitate to contact me!</p>
-    <div class="w3-section">
-      <label><b>Name</b></label>
-      <input class="w3-input w3-border" type="text" required name="Name">
+  <!-- Hero -->
+  <div style="padding: 60px 20px; text-align: center; background-color: #e0e0e0;">
+    <h1 style="font-size: 36px; margin-bottom: 10px;">Welcome to MySocial</h1>
+    <p style="font-size: 18px;">Connect, Share, and Stay Updated with Your Friends.</p>
+    <div style="margin-top: 20px;">
+      <a href="#" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 4px; margin-right: 10px;">Get Started</a>
+      <a href="#" style="padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 4px;">Learn More</a>
     </div>
-    <div class="w3-section">
-      <label><b>Email</b></label>
-      <input class="w3-input w3-border" type="text" required name="Email">
+  </div>
+
+  <!-- Features -->
+  <div style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 40px 20px; background-color: #fff;">
+    <div style="width: 300px; margin: 10px; padding: 20px; background-color: #fafafa; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+      <h2 style="font-size: 20px; margin-bottom: 10px;">Timeline</h2>
+      <p style="font-size: 14px;">See what your friends are posting in real time.</p>
     </div>
-    <div class="w3-section">
-      <label><b>Message</b></label>
-      <input class="w3-input w3-border" required name="Message">
+    <div style="width: 300px; margin: 10px; padding: 20px; background-color: #fafafa; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+      <h2 style="font-size: 20px; margin-bottom: 10px;">Messaging</h2>
+      <p style="font-size: 14px;">Chat privately with anyone, anytime.</p>
     </div>
-    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-  </form>
-  <br>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
+    <div style="width: 300px; margin: 10px; padding: 20px; background-color: #fafafa; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+      <h2 style="font-size: 20px; margin-bottom: 10px;">Notifications</h2>
+      <p style="font-size: 14px;">Get updates when friends interact with you.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div style="text-align: center; padding: 20px; font-size: 12px; background-color: #f0f0f0;">
+    © 2025 MySocial. All rights reserved.
+  </div>
+
 </body>
 </html>
